@@ -1,0 +1,149 @@
+.conteudo{
+  display: block;
+  margin-top: 5em;
+}
+
+.conteudo-topo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80vh;
+  min-height: 500px; 
+  transition: ease .5s;
+  padding-left: 3em;
+  background-image: url('../img/home-arroz.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.cozinharia {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: white;
+  height: 30em;
+}
+
+.esquerda {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  margin-left: 40px;
+}
+
+.direita {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+#fotoprato {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cardapio {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #eed33e;
+  height: 45em;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+.fotos-galeria {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.fotos-galeria img {
+  width: 30%;
+}
+
+.evento {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: white;
+  height: 30em;
+}
+
+.esquerda-evento {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+#fotocasamento1 {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.direita-evento {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 50%;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 40px;
+  font-weight: 200; 
+}
+
+p {
+  margin-bottom: 40px;
+}
+
+.maior {
+  font-size: 18px;
+}
+
+.button-card {
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.button-azul {
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 20px;
+  margin-right: 15px;
+  text-decoration: none;
+  border: solid;
+  border-width: 2px;
+}
+
+.button-azul:hover {
+  background-color: #000066;
+  color: white;
+}
+
+.button-amarelo {
+  width: 150px;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 20px;
+  margin-right: 15px;
+  text-decoration: none;
+  background-color: #eed33e;
+  color: black;
+}
+
+.button-amarelo:hover {
+  background-color: #ffbf00;
+}
